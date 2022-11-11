@@ -1,0 +1,50 @@
+#include<iostream>
+#include<cmath>
+#include<cstdlib>
+#include<ctime>
+using namespace std;
+
+
+
+int main() {
+	int x;
+	int y;
+	sqrt(x);//square root
+	sin(x);//
+	cos(x);
+	tan(x);
+	exp(x);//exponential function
+	log(x);
+	log10(x);
+	fabs(x);//absolute
+	abs(x);//absolute
+	ceil(x);//áÇßÈÑ ÚÏÏ ÕÍíÍ
+	floor(x);//áÇÕÛÑ ÚÏÏ ÕÍíÍ
+	pow(x,y);//x raised to power y
+	fmod(x, y);//modulus  ÈÇÞí ÞÓãå
+	max(x, y);
+	swap(x, y);
+	rand();//0..32767
+	rand() % 10 + 1;//1..10
+	rand() % 10;//0..9
+	srand(time(0));//to make different rand number  every time
+
+
+	////////////////////////////
+	int z,n;
+
+	z = time(0);
+	for (size_t i = 0; i < 10000; i++)
+	{
+		cout << time(NULL) << endl;//0=NULL
+		n = time(0);
+
+	}
+	cout << "time token : " << n - z;
+
+
+}
+
+
+
+
