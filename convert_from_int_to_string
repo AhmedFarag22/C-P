@@ -1,0 +1,19 @@
+#include<iostream>
+#include<string>
+#include<cmath>
+#include<sstream>
+using namespace std;
+
+int main() {
+	long long x = 0, n = 8, r = 0;
+	stringstream ss;
+	cin >> x;
+	string s;
+
+	r = pow(n, x);
+	ss << r;
+	ss >> s;
+	cout << s.at(s.size() - 1);
+
+
+}
