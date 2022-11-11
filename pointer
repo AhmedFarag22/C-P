@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+
+int main() {
+	int c[] = { 4,7,8,9 };
+	int* p;
+	p = c;
+	for (size_t i = 0; i < 4; i++)
+	{
+		cout << *(p++)<<endl;
+	}
+	//int v = 5;
+	//p = &v;
+	//cout << *p << endl << &p<<endl<<v<<endl<<&v;
+
+
+
+
+}
