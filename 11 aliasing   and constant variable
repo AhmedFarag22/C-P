@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+
+int main() {
+
+	int x;
+	int &y = x;//Çí ÊÛííÑ ÈíÍÕá Ýí Çá ÇßÓ ÈíÍÕá Ýí Çá æÇí æ Çí ÊÛííÑ ÈíÍÕá Ýí Çá  æÇí ÈíÍÕá  Ýí Çá ÇßÓ 
+	const   int pi = 3.14;
+	pi = 7;
+	y = 7;
+	cout << x;
+
+}
