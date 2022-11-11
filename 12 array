@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+
+void sort(int arrr[], int s) {
+	int t=0;
+	for (size_t i = 0; i < s-1; i++)
+	{
+
+		for (size_t j = 0; j < s-i-1; j++)
+		{
+			if (arrr[j] > arrr[j + 1]) {
+				t = arrr[j];
+				arrr[j] = arrr[j+1] ;
+				arrr[j+1]  = t;
+			}
+		}
+		
+	}
+	
+
+}
+
+int main() {
+
+	int arr[] = { 8,3,0,9,7 };
+
+	sort(arr, 5);
+
+	for (size_t k = 0; k < 5; k++)
+	{
+		cout << arr[k];
+	}
+}
