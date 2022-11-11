@@ -1,0 +1,18 @@
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+struct student {
+	int id;
+	fullname name;
+};
+struct fullname {
+	string fname;
+	string lname;
+};
+int main() {
+	student a;
+	a.name.fname = "hjk";
+	cout << a.name.fname;
+}
