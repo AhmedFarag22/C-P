@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int x = 5;
+int main() {
+	int x = 9;
+	char s = '\0';//=NULL
+	cout << x<<endl;//9
+	cout << ::x;//5
+
+}
