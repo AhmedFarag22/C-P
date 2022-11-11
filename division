@@ -1,0 +1,14 @@
+#include<iostream>
+#include<string>
+#include<algorithm>
+#include<cmath>
+#include<set>
+using namespace std;
+
+
+int main() {
+	float m = 1.5;
+	m = static_cast<float>(5) / 6;//áãÇ ÊÞÓã ÞÓãÇÊ ÑÎãå ãÔ åÊÊÍá ÇáÇ ÈÇáØÑíÞå Ïí Òí ÇáãËÇá Ïå
+	cout << m;
+}
+
